@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <button id="toggle-dark">Dark Mode</button>
+        <form id="weather-form">
+            <input type="text" id="city-input" placeholder="Enter city name" required />
+            <input type="text" id="country-input" placeholder="Country code (optional)" maxlength="2" />
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="weather-output" class="forecast-container"></div>
+        <div class="unit-button-wrapper">
+            <button type="button" id="toggle-unit" class="hidden">Switch to °F</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="assets/OpenWeather-Master-Logo RGB.png" alt="OpenWeather logo" />
+        <a href="https://openweathermap.org/" target="_blank">Weather data provided by OpenWeather</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
