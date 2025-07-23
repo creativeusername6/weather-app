@@ -16,6 +16,13 @@ It fetches real-time weather data from the [OpenWeatherMap API](https://openweat
 
 ---
 
+## Python Version
+
+- Developed and tested using **Python 3.10**
+- Other versions may work, but are not guaranteed.
+
+---
+
 ## How to Use
 
 ### 1. Get an API Key
